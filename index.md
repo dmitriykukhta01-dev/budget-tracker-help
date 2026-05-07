@@ -4,53 +4,74 @@
   **Developer:** aliaksei.shalamitski                                               
   **Contact:** up.dreams.dev@gmail.com                                                   
                                                                                                                 
-  You can permanently delete your Family Budget Tracker account                                                 
-  and the personal data associated with it at any time.                                                         
+  This page explains how to delete your account or specific pieces of                                           
+  your data in Family Budget Tracker.                                                                           
                                                                                                                 
-  ## Option 1 — Delete in the app (recommended)                                                                 
+  ---                                                             
+
+  <a id="delete-account"></a>                                                                                   
+  ## Delete your account and all associated data
                                                                                                                 
+  You can permanently delete your account and the personal data                                                 
+  associated with it at any time.
+                                                                                                                
+  ### Option 1 — In the app (recommended)                                                                       
+   
   1. Open Family Budget Tracker.                                                                                
   2. Go to **Settings → Account → Delete Account**.               
   3. Read the warning, type **DELETE** to confirm, and tap **Delete account**.
-  4. You will be signed out immediately. Deletion is permanent.                                                 
                                                                                                                 
-  > If you are the sole admin of a family with other members, the app will                                      
-  > ask you to either transfer admin rights to another member or remove                                         
-  > the other members before your account can be deleted.                                                       
+  > Sole admins of a family with other members must first transfer admin                                        
+  > rights or remove the other members.                                                                         
                                                                                                                 
-  ## Option 2 — Request deletion by email                                                                       
+  ### Option 2 — By email                                                                                       
+   
+  Email **support@<your-domain>** with the email of your Google or Apple                                        
+  sign-in (or display name + approximate sign-up date for guest accounts).
+  We complete deletion within **30 days**.                                                                      
                                                                                                                 
-  If you cannot access the app (for example, you uninstalled it), email                                         
-  **support@<your-domain>** from the address associated with your account
-  and include:                                                                                                  
+  ### What is deleted                                                                                           
+                                                                                                                
+  - User profile (display name, email from Google/Apple, device identifier                                      
+    hash for guest accounts)
+  - Personal budget bucket and all transactions inside it                                                       
+  - Goals, recurring transactions, authentication tokens, sign-in identities                                    
+  - Family membership; if you are the sole member, the family and its
+    shared bucket are deleted as well                                                                           
                                                                   
-  - The email of your Google or Apple sign-in, **or**                                                           
-  - The display name and approximate sign-up date if you used a guest account.
-                                                                                                                
-  We will verify your identity and complete deletion within **30 days**                                         
-  of the request.                                                                                               
-                                                                                                                
-  ## What is deleted                                              
-                                                                                                                
-  When you delete your account, the following are **permanently deleted**:
+  ### What is retained, and for how long                                                                        
+                                                                  
+  - Encrypted database backups may contain a copy for up to **30 days**,                                        
+    after which they are rotated out and destroyed.
+  - Anonymized, aggregated metrics (counts only, no personal data) may be                                       
+    retained indefinitely.                                                                                      
+  - Records we are legally required to keep are retained only for as
+    long as required.                                                                                           
+                                                                  
+  ---                                                                                                           
+   
+  <a id="delete-data"></a>                                                                                      
+  ## Delete some of your data without deleting your account       
 
-  - Your user profile (display name, email from Google/Apple sign-in,                                           
-    device identifier hash for guest accounts).
-  - Your personal budget bucket and all transactions inside it.                                                 
-  - Your authentication tokens and sign-in identities.                                                          
-  - Your family membership. If you were the sole member of a family,                                            
-    the family and its shared bucket are deleted as well.                                                       
+  You can remove specific items from inside the app without closing                                             
+  your account.
                                                                                                                 
-  ## What is retained, and for how long                                                                         
+  ### In the app                                                  
+
+  | To delete                | Where                                                |                           
+  | ------------------------ | ---------------------------------------------------- |
+  | A single transaction     | Home → tap the transaction → **Delete**              |                           
+  | A budget category/bucket | Home → bucket → **Edit** → **Delete**                |                           
+  | A savings goal           | Goals → tap the goal → **Delete**                    |                           
+  | A recurring transaction  | Settings → Recurring → tap the entry → **Delete**    |                           
+  | Your family membership   | Settings → Family → **Leave family**                 |                           
+  | Your display name/photo  | Settings → Profile → **Edit**                        |                           
                                                                                                                 
-  - **Encrypted database backups** may contain a copy of your data for up to                                    
-    **30 days** after deletion, after which they are rotated out and
-    permanently destroyed.                                                                                      
-  - **Anonymized, aggregated metrics** (counts only, no personal data) may                                      
-    be retained indefinitely for analytics.                                                                     
-  - **Records we are required to keep by law** (for example, fraud or abuse                                     
-    investigations) are retained only for as long as legally required.                                          
-                                                                  
-  ## Questions                                                                                                  
-                                                                  
-  Email **up.dreams.dev@gmail.com**.
+  Deleted items are removed immediately. Encrypted database backups may                                         
+  retain copies for up to **30 days** before being rotated out.                                                 
+                                                                                                                
+  ### By email                                                    
+
+  If you want us to delete specific data on your behalf, email                                                  
+  **up.dreams.dev@gmail.com** describing what should be removed. We respond
+  within **30 days**.
